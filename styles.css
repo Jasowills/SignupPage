@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eee;
+    color: rgb(7, 38, 63);
+}
+.container{
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    box-shadow: border-box;
+   box-shadow: 1px 1px lightgrey;
+   border-radius: 10px;
+   padding: 0.5rem;
+   overflow: hidden;
+   padding: 1rem 3rem;
+
+}
+.align{
+    padding: 2rem;
+    width: 85%;
+    margin: 0 auto;
+}
+.number{
+    width: 100%;
+    border-radius: 3px;
+    border: 0.2px solid rgba(128, 128, 128, 0.938);
+    padding: 7px 5px; 
+    margin-bottom: 10px;;  
+}
+hr{
+    color: lightgray;
+    width: 100%;
+    border: 0.1px solid;
+}
+.right{
+    float: right;
+    color: blue;
+}
+.right:hover{
+    cursor: pointer;
+}
+option{
+    background-color: white;
+    color: rgb(7, 38, 63);
+}
+select{
+    width: 102%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0.2px solid grey;
+    margin-bottom: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+.one{
+    padding: 10px;
+    background-color: white;
+    color: rgb(7, 38, 63);
+    border-radius: 4px;
+    border: 0.3px solid lightgrey;
+    margin-right: 10px;
+}
+.two{
+    padding: 10px;
+    background-color: rgb(7, 38, 63);
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+textarea{
+    box-shadow: border-box;
+    box-shadow: 1px 1px lightgrey;
+}
+.number1{
+    background-color: rgb(7, 38, 63);
+    color: white;
+    width: 102%;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+marquee{
+    width: 50%;
+    color: green;
+    float: right;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 4px;
+}
+@media screen and (max-width: 500px) {
+    marquee{
+        width: 100%;
+    }
+    .number1{
+        width: 105%;
+    }
+}
+@media screen and (max-width: 400px) {
+    marquee{
+        width: 100%;
+    }
+    .number1{
+        width: 105%;
+    }
+}
+@media screen and (max-width: 300px) {
+    marquee{
+        width: 100%;
+    }
+    .number1{
+        width: 105%;
+    }
+}
+@media screen and (max-width: 200px) {
+    marquee{
+        width: 100%;
+    }
+    .number1{
+        width: 105%;
+    }
+}

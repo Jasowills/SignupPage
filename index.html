@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form action="" class="align">
+            <h3 class="invoice">Invoice Details</h3>
+            <label for="">Invoice Number<input type="number" class="number" required></label> <br/>
+           <label for="">Date of Issue<input type="date" class="number"required></label>
+            <label for="">Payment Date<input type="date" class="number" required></label>
+        </form>
+        <hr>
+        <form action="" class="align">
+            <h3 class="spans">Item Number #1<span class="right"> + Add new Item</span></h3>
+            <label for="">Item Name<input type="text" required class="number" placeholder="TSLA product design Services - 160hrs"></label>
+            <label for="">Quantity<input type="number" required class="number" min="50" max="50000"></label>
+            <label for="">Amount<input type="number" required class="number" min="2"></label>
+            Taxes
+            <select><option value="">VAT 19%</option><option value="">VAT 20%</option><option value="">VAT 22%</option><option value="">VAT 26%</option><option value="">VAT 28%</option><option value="">VAT 30%</option></select>
+            <label for="">Item(s) Description<textarea required cols="30" rows="5" class="number" placeholder="Type......"></textarea> </label>
+        </form>
+        
+        <div class="btns">
+            <button class="one">Save as draft</button>
+            <button class="two">Next Step</button>
+        </div>
+        <hr>
+        <form action="" class="align">
+            <h3 class="info">Information about Customer</h3>
+            <label for="">Company Name or VAT - ID<input type="text" required class="number" placeholder="Enter Company Name or VAT - ID"></label>
+            <div class="btns">
+                <button class="one" type="submit">Previous Step</button>
+                <button class="two" type="submit">Add new Customer</button>
+            </div>
+            <hr>
+        </form>
+       
+     <form action="" class="align">
+        <h3 class="display">Displayed Informations</h3>
+        <label for="">Company Name or VAT - ID<input type="text" required class="number" placeholder="Jason Williams Design" required></label>
+        <label for="">Email<input type="email" class="number" required placeholder="Jujuzhaddy01@gmail.com"></label>
+        <label for="">Phone Number<input type="tel" class="number" required placeholder="+234-907-793-196-0"></label>
+        <label for="">IBAN number <input type="text" class="number"  required placeholder="PL22 1140 1240 1450 2222 0000 1607"></label>
+        <hr>
+        <input type="submit" class="number1" value="Confirm Changes">
+     </form>
+    </div>
+</body>
+</html>
